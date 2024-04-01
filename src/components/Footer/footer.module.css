@@ -1,0 +1,16 @@
+.logo {
+    font-size: 45px;
+    cursor: pointer;
+}
+.secondColumn{
+    padding: 5px 0;
+}
+.thirdColumn{
+   padding-bottom: 28px;
+   padding-top: 5px;
+    
+}
+.secondColumn, .thirdColumn, .languageColumn{
+    font-size: 17px;
+
+}

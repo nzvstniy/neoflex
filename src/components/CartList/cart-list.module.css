@@ -1,0 +1,53 @@
+.cart{
+    position: relative;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+    width: 44.4%;
+    border-radius: 30px;
+}
+
+.trashIcon{
+    position: absolute;
+    top: 18px;
+    right: 28px;
+    font-size: 20px;
+    color: red;
+    cursor: pointer;
+}
+img{
+    width:150px;
+    height:150px;
+    margin-left: 18px;
+}
+.title{
+    padding-bottom: 12px;
+    padding-top: 40px;
+    font-size: 17px;
+    color: black;
+    font-weight: 500;
+    padding-left: 25px;
+}
+.price{
+    font-size: 15px;
+    color: #AAAAAA;
+    font-weight: 600;
+    padding-left: 25px;
+}
+section{
+    padding-top: 20px;
+}
+.bottomLine{
+    padding: 15px 30px 15px 30px;
+}
+
+.quantity{
+    font-size: 17px;
+    width: 600;
+    padding: 5px 25px 5px 25px;
+}
+
+.changeQuantity{
+    font-size: 30px;
+    color: #FFCE7F;
+    cursor: pointer;
+}

@@ -1,0 +1,37 @@
+.logo {
+    font-size: 45px;
+    cursor: pointer;
+    padding-right: 130px;
+}
+
+.fav {
+    font-size: 25px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.cart {
+    font-size: 25px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.cartIcon {
+    position: relative;
+    display: inline-block;
+}
+
+.cartCount {
+    position: absolute;
+    top: 25%;
+    right: 5%;
+    transform: translate(50%, -50%);
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    background-color: #FFA542;
+    color: white;
+    border-radius: 50%;
+    font-size: 12px;
+}

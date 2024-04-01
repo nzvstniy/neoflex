@@ -1,0 +1,64 @@
+.product {
+    width: 350px;
+    height: 407px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    
+}
+
+.product>* {
+    background: white;
+    border-radius: 30px;
+
+}
+
+section {
+    background-color: #EAEAEA;
+    font-size: 20px;
+    color: #838383;
+}
+
+.productPage {
+    padding: 0 20% 0 20%;
+    
+}
+
+.productPage .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+
+.productPage .container .product {
+    text-align: center;
+    background: white;
+    border-radius: 30px;
+
+}
+.image {
+    background: white;
+    width: 250px;
+    height: 250px;
+    margin: 0;
+}
+
+
+
+
+.productPage .container .product button:hover:not([disabled]) {
+    background-color: #EAEAEA;
+    cursor: pointer;
+
+}
+
+.middleLime {
+    padding-top: 55px;
+    
+}
+
+.bottomLine {
+    padding-top: 25px;
+    
+}

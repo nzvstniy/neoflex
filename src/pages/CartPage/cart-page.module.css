@@ -1,0 +1,47 @@
+.result {
+    position: relative;
+    width: 350px;
+    height: 120px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    margin-left: -440px;
+}
+img{
+    padding-top: 20px;
+}
+.order {
+    position: absolute;
+    bottom: 0;
+    width: 350px;
+    height: 65px;
+    background-color: #101010;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.total{
+    font-size: 15px;
+    font-weight: 600;
+}
+.amountInfo {
+    padding: 20px;
+}
+
+.pageContent {
+    padding-top: 30px;
+    padding-left: 245px;
+    min-height: calc(100vh - 55px);
+    background-color: #EAEAEA;
+}
+
+.emptyCart{
+    justify-content: center;
+    align-items: center;
+}
